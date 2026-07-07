@@ -1,0 +1,27 @@
+<!--
+  📊 방문자 분석 트래킹 (구글 애널리틱스 GA4)
+  방문자가 몇 명 오는지·어디서 오는지 재려면 이걸 심으세요.
+
+  설치 순서:
+   1. analytics.google.com 접속 → 계정·속성 만들기 (무료)
+   2. "데이터 스트림" → "웹" → 내 사이트 주소 입력
+   3. 발급된 측정 ID(G-XXXXXXXXXX)를 아래 G-XXXXXXXXXX 자리에 붙여넣기
+   4. 아래 코드를 모든 페이지의 <head> 맨 위에 넣기 (정적 HTML이면 각 파일에)
+   5. 배포 후 GA4 "실시간" 화면에서 내가 방문하면 뜨는지 확인
+
+  (자세한 단계별 안내는 ../../prompts.md 의 "트래킹 설치" 프롬프트를 AI에 붙여넣으세요)
+-->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+
+<!--
+  메타(페이스북·인스타) 픽셀도 광고를 돌린다면 함께 심으세요.
+  business.facebook.com → 이벤트 관리자 → 픽셀 만들기 → 발급 코드를 같은 위치에.
+-->

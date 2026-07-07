@@ -1,0 +1,17 @@
+# 비밀·환경변수 (절대 커밋 금지)
+.env
+.env.local
+.env.*.local
+*.key
+*-key.json
+client_secret*.json
+token.json
+
+# 의존성·빌드
+node_modules/
+.next/
+dist/
+
+# OS·에디터
+.DS_Store
+*.bak

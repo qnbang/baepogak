@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ⑪ sitemap.xml — 검색엔진에게 "이 페이지들이 있어요"라고 알려주는 목록
+  public/sitemap.xml 에 두고, 도메인과 <url> 목록을 내 페이지에 맞게 바꾸세요.
+  페이지가 많으면 Next.js는 app/sitemap.ts 로 자동 생성하는 방법도 있습니다.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://CHANGE_ME.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://CHANGE_ME.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

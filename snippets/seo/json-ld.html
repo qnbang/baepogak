@@ -1,0 +1,28 @@
+<!--
+  ⑫ GEO — 구조화 데이터(JSON-LD)로 AI·검색엔진이 "이 페이지가 뭔지" 정확히 읽게
+  <head> 또는 <body>에 그대로 넣고 값만 바꾸세요. ChatGPT·퍼플렉시티가 답할 때
+  내 사이트를 인용·추천할 확률을 높이고, 구글 리치결과에도 도움이 됩니다.
+
+  아래는 "지역 사업체" 예시입니다. 제품·글·회사 등은 schema.org에서 타입을 고르세요.
+-->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "내 사업체 이름",
+  "description": "무엇을 하는 곳인지 한두 문장.",
+  "url": "https://CHANGE_ME.com",
+  "telephone": "+82-2-000-0000",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "서울",
+    "addressCountry": "KR"
+  }
+}
+</script>
+
+<!--
+  글/블로그면 "@type": "Article", 제품이면 "Product", 회사 소개면 "Organization".
+  자주 쓰는 것: Organization, Article, Product, FAQPage, LocalBusiness
+-->
