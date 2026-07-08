@@ -1,0 +1,16 @@
+{
+  "name": "baepogak-marketplace",
+  "owner": {
+    "name": "자동화청년 · 큐앤뱅"
+  },
+  "metadata": {
+    "description": "바이브코딩 배포 함정 방지 스타터팩 '배포각' 배포처"
+  },
+  "plugins": [
+    {
+      "name": "baepogak",
+      "source": "./",
+      "description": "바이브코딩 배포 함정 방지 — 첫삽부터 배포 전 점검까지"
+    }
+  ]
+}

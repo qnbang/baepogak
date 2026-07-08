@@ -1,0 +1,11 @@
+{
+  "name": "baepogak",
+  "description": "바이브코딩 배포 함정 방지 — 첫삽(와이어프레임+함정 스코핑)부터 배포 전 12항목 점검까지",
+  "version": "1.0.0",
+  "author": {
+    "name": "자동화청년 · 큐앤뱅",
+    "email": "ceo@qnbang.com"
+  },
+  "homepage": "https://github.com/qnbang/baepogak",
+  "license": "MIT"
+}
